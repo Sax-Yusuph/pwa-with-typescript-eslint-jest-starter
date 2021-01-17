@@ -1,7 +1,8 @@
+import { AppProps } from 'next/dist/next-server/lib/router/router'
 import Head from 'next/head'
-import '../styles/globals.css'
+import '../../styles/globals.css'
 
-export default function MyApp({ Component, pageProps }) {
+export default function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   return (
     <>
       <Head>
